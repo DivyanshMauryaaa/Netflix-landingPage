@@ -1,0 +1,236 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+}
+
+.first-section .container {
+    width: auto;
+    height: 650px;
+    /* margin: 10px auto; */
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    /* Background color with opacity */
+    background-image: url("./Moviebanner.webp");
+    background-blend-mode: multiply;
+    /* Blend mode to multiply background color with image */
+    /* border: 1px solid #ddd; */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    justify-content: center;
+    color: #fff;
+    border-bottom: 10px solid #232323;
+}
+
+
+.first-section h1 {
+    font-size: 44px;
+    margin-bottom: 10px;
+    font-weight: 800;
+}
+
+.first-section p {
+    margin-bottom: 25px;
+}
+
+.first-section form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.first-section input[type="email"] {
+    padding: 20px;
+    margin-bottom: 10px;
+    width: 350px;
+    /* border: 3px solid #ccc; */
+    background-color: #0F0F0F;
+    outline: none;
+    color: white;
+    font-size: 17px;
+    box-shadow: none !important;
+    border-radius: 7px;
+}:-webkit-autofill { color: #fff !important; }
+
+.first-section button {
+    padding: 16px 30px;
+    background-color: #e60d0d;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.first-section button:hover {
+    background-color: #cc0812;
+}
+
+.first-section img {
+    margin-top: 60px;
+}
+
+/* Second section */
+
+.section {
+    border-bottom: #232323 4px solid;
+    background-color: #000000;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    height: 280px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.section-title {
+    margin-top: 100px;
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.section-content {
+    font-size: 1.1rem;
+    color: #666;
+}
+
+.border-line {
+    border-top: #666 solid 5px;
+}
+
+/* Accordion Styles */
+
+.accordion {
+    width: 1200px;
+    padding: 18px;
+    max-width: 1600px;
+    margin: 0 auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: 0.8s;
+}
+
+.accordion-item {
+    border-bottom: 1px solid #666;
+    background: #2D2D2D;
+    padding: 20px;
+    transition: 0.8s;
+}
+
+.accordion-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: #2D2D2D;
+    cursor: pointer;
+    color: #fff;
+}
+
+.accordion-title h3 {
+    margin: 0;
+}
+
+.accordion-content {
+    padding: 15px;
+    display: none;
+    color: #fff;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-variant-east-asian: normal;
+    font-variant-ligatures: normal;
+    font-variant-numeric: normal;
+    font-weight: 400;
+
+}
+
+.icon {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-left: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    transform: rotate(-45deg);
+    transition: transform 0.2s ease-out;
+    color: #fff;
+}
+
+.icon.rotate {
+    transform: rotate(135deg);
+}
+
+.last-input {
+    width: 400px;
+    padding: 18px;
+    font-size: 24px;
+    border: none;
+}
+
+.last-input {
+    padding: 20px;
+    margin-bottom: 10px;
+    width: 350px;
+    /* border: 3px solid #ccc; */
+    background-color: #0F0F0F;
+    outline: none;
+    color: white;
+    font-size: 17px;
+    box-shadow: none !important;
+    border-radius: 7px;
+    
+}:-webkit-autofill { color: #fff !important; }
+
+.fourth-section button {
+    padding: 17px 30px;
+    background-color: #e60d0d;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: 0.3s;
+    font-weight: 500;
+}
+
+/* Footer Section 4 styles */
+
+.footer {
+    border-top: #666666 5px solid;
+    padding: 23px 400px;
+    color: #B3B3B3;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    font-size: 16px;
+}
+
+a {
+  color: #B3B3B3;
+}
+
+select {
+    width: 100px;
+    padding: 6px;
+    border-radius: 5px;
+    background: #0F0F0F;
+    color: white;
+}
+
+img {
+    user-select: none;
+}
+
+/*
+
+font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif
+font-size: 16px
+font-style: normal
+font-variant-caps: normal
+font-variant-east-asian: normal
+font-variant-ligatures: normal
+font-variant-numeric: normal
+font-weight: 400
+
+
+*/
